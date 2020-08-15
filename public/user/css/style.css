@@ -1,0 +1,150 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+}
+a {
+    text-decoration: none;
+}
+
+.img-block {
+    background-color: cyan;
+    width: 260px;
+    height: 185px;
+}
+.del-cmt{
+    color: red;
+}
+
+/* -------- */
+.block-heading {
+    background: #dd3333;
+    border-radius: 2px;
+    margin-bottom: 30px;
+}
+.block-title {
+    color: #fff;
+    display: inline-block;
+    height: 36px;
+    line-height: 50px;
+    padding: 0 15px;
+    white-space: nowrap;
+}
+.post-wrap {
+    display: flex;
+}
+.post-img {
+    width: 25%;
+    margin-right: 30px;
+}
+.post-txt-wrap {
+    width: 80%;
+}
+.post-meta {
+    display: flex;
+}
+.author {
+    margin-right: 15px;
+}
+.post-sapo {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-top: 15px;
+}
+
+/* Detail */
+.post-title {
+    color: #212121;
+    font-size: 56px;
+    letter-spacing: -.04em;
+    line-height: 1.15;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.author img {
+    width: 35px;
+    border-radius: 100%;
+    margin-right: 5px;
+}
+.author a {
+    color: #f70d28;
+}
+.date::before {
+    content: '\2014';
+    margin-right: 10px;
+}
+.date {
+    display: flex;
+    align-items: center;
+}
+.meta-text, .date a {
+    font-size: 13px;
+    color: #a0a0a0;
+}
+.detail-content-wrap {
+    color: #333;
+    font-size: 16px;
+    line-height: 1.625em;
+    word-break: normal;
+    word-wrap: break-word;
+}
+.detail-content-wrap h2 {
+    line-height: 25px;
+    font-weight: 500;
+}
+
+/* Comment */
+.pb-cmnt-container {
+    font-family: Lato;
+    margin-top: 30px;
+}
+.pb-cmnt-textarea {
+    resize: none;
+    padding: 20px;
+    height: 130px;
+    width: 100%;
+    border: 1px solid #F2F2F2;
+}
+.panel-info {
+    border-color: #bce8f1;
+}
+.panel {
+    margin-bottom: 20px;
+    background-color: #fff;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    box-shadow: 0 1px 1px rgba(0,0,0,.05);
+}
+.panel-body {
+    padding: 15px;
+}
+.custom-cmt {
+    justify-content: space-between;
+}
+.info-cmt {
+    margin-bottom: 3%;
+}
+.info-user, .interact {
+    display: flex;
+    align-items: center;
+}
+.avt {
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    background-color: black;
+    margin-right: 15px;
+}
+.username {
+    font-weight: 700;
+}
+.info-cmt-ask, .interact {
+    margin-left: 65px;
+}
+.interact {
+    padding: 5px 0;
+    font-size: 14px;
+    color: #666;
+}
+.dot {
+    margin: 0 7px;
+}
